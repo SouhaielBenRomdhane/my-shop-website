@@ -1,0 +1,49 @@
+/* Home.css */
+
+/* Carousel Styles */
+.Carousel {
+  margin-top: 20px;
+}
+
+.Carousel .CarouselItem img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Container Styles */
+.Container {
+  padding: 20px;
+}
+
+.Container p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Button Styles */
+.Button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #edc700;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+  background-color: #ffb900;
+}
+
+@media (max-width: 768px) {
+  .Carousel .CarouselItem img {
+    height: 300px;
+  }
+
+  .Container p {
+    font-size: 1rem;
+  }
+}

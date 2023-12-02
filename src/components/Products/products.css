@@ -1,0 +1,101 @@
+/* Styles pour les cartes de produits */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-left: 20px
+}
+
+.row {
+  margin-left: 100px;
+
+}
+
+.col-md-4 {
+  margin-bottom: 50px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+  width: 100%;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.quantity input {
+  width: 60px;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.quantity input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.1);
+}
+
+
+
+.form-control:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.5);
+}
+
+.quantity {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.quantity span,
+.quantity input {
+  display: block;
+  margin-top: 15px;
+}
+
+.container h1 {
+
+  margin-left: 100px;
+}
